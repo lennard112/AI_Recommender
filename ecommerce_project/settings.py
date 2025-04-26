@@ -36,11 +36,10 @@ SECRET_KEY = os.getenv(
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'ai_recommender-5.onrender.com',
-    'localhost',
-    '127.0.0.1'
+    "ai-recommender-k6wy.onrender.com",
+    "localhost",
+    "127.0.0.1"
 ]
-
 
 # Add your environment variables for MongoDB and OpenAI
 OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634859e6a")
